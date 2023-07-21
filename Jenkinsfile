@@ -56,8 +56,8 @@ pipeline {
                                     sh """/var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/sonarscanner4/bin/sonar-scanner \
                                     -D sonar.projectVersion=1.0-SNAPSHOT \
                                     -D sonar.sources=. \
-                                    -D sonar.login=sonar \
-                                    -D sonar.password=sonar \
+                                    -D sonar.login=pavi \
+                                    -D sonar.password=pavi \
                                     -D sonar.projectKey=project \
                                     -D sonar.projectName=wishlist-py \
                                     -D sonar.inclusions=index.py \
